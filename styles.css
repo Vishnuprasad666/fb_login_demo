@@ -1,0 +1,154 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    /* font-family: sans-serif; */
+}
+
+.header{
+    background-color: #43609c;
+    height: 75px;
+    width: 100vw;
+    position: relative;
+}
+
+.header-logo{
+    color: white;
+    font-size: 35px;
+    font-weight: bolder;
+    position: relative;
+    top: 20px;
+    left: 400px;
+    font-family: "open sans", Arial, sans-serif;
+
+}
+
+.loginform{
+    position: absolute;
+    right: 550px;
+    top: 10px;
+}
+
+.loginform>input{
+    margin-right: 5px;
+    border: 1px solid;
+}
+
+.loginform button{
+    background-color: #486AAE;
+    color: white;
+    border: 1px solid #29487d;
+    padding: 4px;
+}
+
+.loginform span{
+    color: white;
+
+}
+
+.log1{
+    display: inline-block;
+    color: white;
+    position: absolute;
+    right: 230px;
+}
+
+.log2{
+    display: inline-block;
+    color: white;
+}
+
+.image{
+    position: relative;
+    display: inline-block;
+    left: 400px;
+    top: 50px;
+    color: hsl(240, 95%, 22%);
+    font-weight: bolder;
+    font-size: 24px;
+}
+
+
+.signup-form{
+    position: absolute;
+    display: inline-block;
+    top: 100px;
+    left: 970px;
+
+}
+
+.p1{
+    font-size: 20px;
+}
+
+.fname,.sname,.email-phone,.password{
+    height: 40px;
+    padding-left: 5px;
+    border-radius: 5px;
+    border-width: 1px;
+
+}
+
+.fname,.sname{
+    width: 200px;
+}
+
+.email-phone,.password{
+    width: 400px;
+
+}
+.bday{
+    position: relative;
+    left: 400px;
+    font-weight: bolder;
+}
+.gender{
+    font-weight: bolder;
+}
+
+.t-c{
+font-size: 12px;
+opacity: 0.6;
+}
+.t-c a{
+    text-decoration: none;
+}
+.signupbtn button{
+    background-color: rgb(77, 202, 77);
+    color: white;
+    border: 2px solid green;
+    display: inline;
+    height: 45px;
+    width: 150px;
+    border-radius: 7px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.p2{
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.celebrity{
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.cr{
+    text-decoration: none;    
+}
+
+.footer{
+    font-size: 20px;
+    position: relative;
+    width: 100%;
+    bottom: -500px;
+    text-align: center;
+    color: purple;
+    /* font-size: 12px; */
+}   
+
+.footer>a{
+    text-decoration: none;
+}
